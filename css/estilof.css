@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.Logo{
+    padding-left: 20px;
+
+}
+
+h1, p, a{
+    color: white;
+    text-decoration: none;
+    
+}
+header, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 0 20px;
+
+    
+}
+li:hover, h1:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+footer{
+    background-color: black;
+    padding: 0 20px;
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+.obs{
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    padding: 0 20px;
+
+}
+
+/* alinhar os botãos no centro */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li:hover,
+h1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    /* background: #56CCF2; */
+    background-image: url(../img/cinema.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+}
+
+.form-title h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+fieldset {
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+form {
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+fieldset {
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: blueviolet;
+}
+
+#botao:hover {
+    background-color: blue;
+}
+
+
+select {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+textarea {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#email {
+    margin-left: 20px;
+
+}
+
+#label2 {
+    margin-left: 200px;
+
+
+}
+
+#telefone {
+    margin-left: 10px;
+}
+
+#cor {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+}
+
+#aniversario {
+    width: 130px;
+
+}
+
+#sexo {
+    width: 20px;
+
+}
+
+#numero {
+    width: 100px;
+}
+
+#observaçao {
+    width: 710px;
+}
+
+ul {
+    margin-left: 40px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+#face {
+    width: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 0 20px;
+    width: 100%;
+    height: 200px;
+
+
+}
+
