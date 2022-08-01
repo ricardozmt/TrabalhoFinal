@@ -35,15 +35,15 @@ img {
     height: auto;
 }
 
-/* reset */
+/* RESET */
 
 
 
 body{
-   
     background-image: url(../img/cinema.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+ 
 }
 
 header{
@@ -65,6 +65,18 @@ h1, p, a{
     text-decoration: none;
     
 }
+
+.telef{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
 header, ul{
     display: flex;
     flex-direction: row;
@@ -75,12 +87,59 @@ li{
 
     
 }
-li:hover, h1:hover{
+.pagmenu:hover, h1:hover{
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+}
+
+
+
+
+@media (max-width: 768px){
+    .Logo{
+        display: none;
+    }
+    .menu{
+        font-size: 60%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mapa{
+        width: 90%;
+    }    
+    
+   table{
+    width: 400px;
+   
+   }
+
+   form{
+    width: 100%;
+   }
+
+.dados{
+    width: 30vh;
+    margin-left: 30%;
+}
+
+#observacao{
+    width: 45vh;
+}
+
+legend{
+    margin-left: 30px;
+}
+    
+
 
 }
+
 
 footer{
     background-color: black;
@@ -92,6 +151,213 @@ footer{
     
     
 }
+
+.obs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contat {
+    font-family: Verdana, Tahoma, sans-serif;
+    /* background: #56CCF2; */
+    background: none;
+}
+
+
+/* PAGINA CONTATO */
+.containercontato {
+    max-width: 960px;
+    background: white;
+}
+
+.form-title h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+
+.sugestoes {
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.dados{
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+form {
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: blueviolet;
+}
+
+#botao:hover {
+    background-color: blue;
+}
+
+
+select {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+textarea {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#email {
+    margin-left: 20px;
+
+}
+
+#label2 {
+    margin-left: 200px;
+
+
+}
+
+#telefone {
+    margin-left: 10px;
+}
+
+#cor {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+}
+
+#aniversario {
+    width: 130px;
+
+}
+
+#sexo {
+    width: 20px;
+
+}
+
+#numero {
+    width: 100px;
+}
+
+#observaçao {
+    width: 710px;
+}
+
+.form-title h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+
+form {
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: blueviolet;
+}
+
+#botao:hover {
+    background-color: blue;
+}
+
+
+select {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+textarea {
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#email {
+    margin-left: 20px;
+
+}
+
+#sexo {
+    width: 20px;
+
+}
+
+#observaçao {
+    width: 710px;
+}
+/* FIM PAGINA CONTATO */
 
 .logo{
     width: 30%;
@@ -116,6 +382,9 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     background: #fff;
+}
+.titfilme{
+    color: black;
 }
 
 .f1{
@@ -221,7 +490,7 @@ h2{
 }
 
 table{
-    width: 500px;
+    width: 45vh;
     height: 600px;
     text-align: center;
     margin: auto;
@@ -229,8 +498,16 @@ table{
     margin-bottom: 150px;
 }
 
-.bsobre{
+
+
+.bsobre, .filme1{
     background: none;
+    
+}
+
+.titsb{
+background-color: red;
+color: white;
 }
 
 
@@ -242,7 +519,34 @@ table{
     justify-content: center;
     margin-bottom: 150px;
 }
+
 h2{
     background-color: white;
     
 }
+
+ .tf1{
+    text-align: center;
+ }
+
+
+ 
+ .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+ }
+ .trailer{
+    text-align: center;
+    padding-top: 30px;
+       
+
+    
+ }
+
+ 
+
+

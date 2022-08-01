@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Final</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../TrabalhoFinal/css/style.css">
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myMenu");
+            if(x.className === "menu"){
+                x.className += "active";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -13,19 +23,19 @@
             <h1>CINEFLIX</h1>
         </div>
         <ul class="menu">
-            <li><a href="html/index.html">
+            <li class="pagmenu"><a href="index.html">
                     <p>HOME</p>
                 </a></li>
-            <li><a href="html/Sobre.html">
+            <li class="pagmenu"><a href="html/Sobre.html">
                     <p>SOBRE</p>
                 </a></li>
-            <li><a href="html/Localização.html">
+            <li class="pagmenu"><a href="html/Localização.html">
                     <p>LOCALIZAÇÃO</p>
                 </a></li>
-            <li><a href="html/valores.html">
+            <li class="pagmenu"><a href="html/valores.html">
                     <p>VALORES</p>
                 </a></li>
-            <li><a href="html/contato.html">
+            <li class="pagmenu"><a href="html/contato.html">
                     <p>CONTATO</p>
                 </a></li>
         </ul>
@@ -33,7 +43,7 @@
    <section>
        <div class="filmes">
                <div class="card">
-                   <a href="html/velozes.html"><div> <img class="f1" src="../img/velozes e furiosos.jpg" alt="v1"></div></a>
+                   <a href="html/velozes.html"><div> <img class="f1" src="../TrabalhoFinal/img/velozes e furiosos.jpg" alt="v1"></div></a>
                   <img src="" alt="">
                   <div class="info">
                     <div class="titulo"> 
@@ -43,7 +53,7 @@
                   </div>
                </div>
                <div class="card">
-                <div> <img class="f1" src="../img/Minions.jpg" alt="v1"></div>
+                <div> <a href="html/minions.html">  <img class="f1" src="../TrabalhoFinal/img/Minions.jpg" alt="v1"></div></a> 
                <img src="" alt="">
                <div class="info">
                  <div class="titulo"> 
@@ -54,7 +64,7 @@
                  
                </div>
             <div class="card">
-                <div> <img class="f1" src="../img/topgun.jfif" alt="v1"></div>
+                <div> <a href="html/topgun.html"> <img class="f1" src="../TrabalhoFinal/img/topgun.jfif" alt="v1"></div></a>
                <img src="" alt="">
                <div class="info">
                  <div class="titulo"> 
@@ -64,7 +74,7 @@
                </div>
             </div>
             <div class="card">
-                <div> <img class="f1" src="../img/doutor estranho.jpg" alt="v1"></div>
+                <div> <a href="html/doutorestranho.html"> <img class="f1" src="../TrabalhoFinal/img/doutor estranho.jpg" alt="v1"></div></a> 
                <img src="" alt="">
                <div class="info">
                  <div class="titulo"> 
@@ -74,7 +84,7 @@
                </div>
             </div>
             <div class="card">
-                <div> <img class="f1" src="../img/Sonic.jfif" alt="v1"></div>
+                <div> <a href="html/sonic.html"><img class="f1" src="../TrabalhoFinal/img/Sonic.jfif" alt="v1"></div></a>
                <img src="" alt="">
                <div class="info">
                  <div class="titulo"> 
@@ -84,7 +94,7 @@
                </div>
             </div>
             <div class="card">
-                <div> <img class="f1" src="../img/Venom.jpg" alt="v1"></div>
+                <div> <a href="html/venom.html"><img class="f1" src="../TrabalhoFinal/img/Venom.jpg" alt="v1"></div></a> 
                <img src="" alt="">
                <div class="info">
                  <div class="titulo"> 
@@ -97,13 +107,22 @@
            </div>
         </div>
 
+<div class="mobile-menu-icon">
+    <button> <img src="" class="icon"></button>
+</div>
+
    </section>
     <footer>
         <div class="logos">
-            <img src="../img/instagram.png">
-            <img src="../img/facebook.png">
+            <a href="https://www.instagram.com/"><img src="../TrabalhoFinal/img/instagram.png"></a>
+            <a href="https://www.facebook.com/"><img src="../TrabalhoFinal/img/facebook.png"></a>
         </div>
-
+        <div class="telef">
+            <h3>Contato:(55)3307-1716</h3>
+            <h3>Email: cineflix@hotmail.com</h3>
+            
+        </div>
+        
     </footer>
 </body>
 </html>
