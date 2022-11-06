@@ -1,4 +1,4 @@
-
+/* RESET CSS */
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -35,19 +35,22 @@ img {
     height: auto;
 }
 
-/* RESET */
+/* FIM RESET */
 
 
 
+
+/* ESTRUTURA */
 body{
     background-image: url(../img/cinema.jpg);
     background-size: cover;
     background-repeat: no-repeat;
  
 }
-
+/* header */
 header{
     display: flex;
+    top: 0;    
     justify-content: space-between;
     background-color: black;
     align-items: center;
@@ -55,28 +58,6 @@ header{
     height: 10vh;
 }
 
-.Logo{
-    padding-left: 20px;
-
-}
-
-h1, p, a{
-    color: white;
-    text-decoration: none;
-    
-}
-
-.telef{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logos{
-    display: flex;
-    justify-content: center;
-}
 header, ul{
     display: flex;
     flex-direction: row;
@@ -93,54 +74,21 @@ li{
     background-color: rgba(255, 255, 255, 0.2);
     margin: auto;
 }
+/* fim header */
+.Logo{
+    padding-left: 20px;
+
+}
 
 
 
-
-@media (max-width: 768px){
-    .Logo{
-        display: none;
-    }
-    .menu{
-        font-size: 60%;
-    }
-
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
+h1, p, a{
+    color: white;
+    text-decoration: none;
     
-    .mapa{
-        width: 90%;
-    }    
-    
-   table{
-    width: 400px;
-   
-   }
-
-   form{
-    width: 100%;
-   }
-
-.dados{
-    width: 30vh;
-    margin-left: 30%;
 }
 
-#observacao{
-    width: 45vh;
-}
-
-legend{
-    margin-left: 30px;
-}
-    
-
-
-}
-
-
+/* footer */
 footer{
     background-color: black;
     padding: 0 20px;
@@ -151,232 +99,142 @@ footer{
     
     
 }
-
-.obs{
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    list-style: none;
-    font-weight: bold;
-}
-
-
-section {
+.telef{
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contat {
-    font-family: Verdana, Tahoma, sans-serif;
-    /* background: #56CCF2; */
-    background: none;
+.logos{
+    display: flex;
+    justify-content: center;
 }
 
 
-/* PAGINA CONTATO */
-.containercontato {
-    max-width: 960px;
-    background: white;
-}
+/* fim footer */
 
-.form-title h2 {
-    text-align: center;
-    padding: 50px;
-}
-
-
-.sugestoes {
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding: 20px;
-    height: 400px;
-    margin-right: 20px;
-}
-
-.dados{
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding: 20px;
-    height: 400px;
-    margin-right: 20px;
-}
-
-form {
-    font-size: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-label {
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-
-input {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-input::placeholder {
-    color: blueviolet;
-}
-
-#botao:hover {
-    background-color: blue;
-}
-
-
-select {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-textarea {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-#email {
-    margin-left: 20px;
-
-}
-
-#label2 {
-    margin-left: 200px;
-
-
-}
-
-#telefone {
-    margin-left: 10px;
-}
-
-#cor {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: none;
-}
-
-#aniversario {
-    width: 130px;
-
-}
-
-#sexo {
-    width: 20px;
-
-}
-
-#numero {
-    width: 100px;
-}
-
-#observaçao {
-    width: 710px;
-}
-
-.form-title h2 {
-    text-align: center;
-    padding: 50px;
-}
-
-
-form {
-    font-size: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-label {
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-
-input {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-input::placeholder {
-    color: blueviolet;
-}
-
-#botao:hover {
-    background-color: blue;
-}
-
-
-select {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-textarea {
-    width: 200px;
-    padding: 10px;
-    margin-left: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-#email {
-    margin-left: 20px;
-
-}
-
-#sexo {
-    width: 20px;
-
-}
-
-#observaçao {
-    width: 710px;
-}
-/* FIM PAGINA CONTATO */
-
-.logo{
-    width: 30%;
-    height: 100%;
-
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
-.logo img{
-    margin-right: 50px;
+
+
+
+
+
+/* PAGINA CONTATO */
+
+.contat {
+    font-family: Verdana, Tahoma, sans-serif;
+    background: none;
+}
+
+.form-title h2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.titc{
+    padding: 20px;
+}
+
+.contato{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form{
+    display: block;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.form .linha{
+    display: block;
+    padding: 10px;
+}
+
+.form .f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .f .input {
+    flex: 1;
 
 }
 
+.form .f .input:first-child {
+    margin-right: 20px;
+
+}
+
+.form .input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.form .input:focus{
+    outline-color: #2196F3;
+}
+
+.form .textarea{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 1.2em;
+    resize: none;
+
+}
+.form .textarea:focus{
+    outline-color: #2196F3;
+}
+
+.botcontat{
+    display: flex;
+    justify-content: center;
+}
+.form .btn-cont{
+    display: block;
+    padding: 8px;
+    background-color: #3F51B5;
+    color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+.form .btn-cont:hover{
+    background-color: #283593;
+
+}
+
+/* FIM PAGINA CONTATO */
+
+/* Pagina principal */
+
+
+
 .filmes{
     width: 80%;
-    /* height: 700px;
-    position: relative;
-    border: 1px solid black; */
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -387,6 +245,7 @@ textarea {
     color: black;
 }
 
+/* imagem do filme */
 .f1{
     height: 400px;
     width: 400px;
@@ -446,14 +305,18 @@ textarea {
     height: 30px;
     width: 20%;
     border-radius: 5px;
+
+    
 }
+
+.bsobre, .filme1{
+    background: none;
+    
+}
+
+/* fim pagina principal */
 
 /* pagina Sobre */
-
-
-h2{
-    text-align: center;
-}
 
 
 .container{
@@ -489,26 +352,25 @@ h2{
     width: 100%;
 }
 
-table{
-    width: 45vh;
-    height: 600px;
-    text-align: center;
-    margin: auto;
-    background: #fff;
-    margin-bottom: 150px;
-}
-
-
-
-.bsobre, .filme1{
-    background: none;
-    
-}
 
 .titsb{
-background-color: red;
-color: white;
+    background-color: red;
+    color: white;
+    }
+
+h2{
+    text-align: center;
 }
+
+
+
+/* FIM PAGINA SOBRE */
+
+
+
+
+
+
 
 
 /* pagina localização */
@@ -525,6 +387,32 @@ h2{
     
 }
 
+/* fim pagina localização */
+
+/* pagina de valores */
+
+table{
+    width: 800px;
+   
+   
+   }
+
+   .secvalores{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores{
+    background: none;
+   
+
+}
+
+   /* fim pagina de valores */
+
+/* pagina de sinopse */
  .tf1{
     text-align: center;
  }
@@ -542,11 +430,247 @@ h2{
  .trailer{
     text-align: center;
     padding-top: 30px;
-       
-
-    
  }
 
+ iframe{
+    width: 600px;
+    height: 500px;
+}
+
+ /* fim pagina sinopse */
+
+
+
+
+.menumobile{
+    display: none;
+}
+
+.navmob{
+    display: none;
+}
  
+ .menu-hamburguer i{
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+ @media (max-width: 768px){
+    .menu{
+        font-size: 60%;
+        display: none;
+    }
+
+.navmob{
+    display: block;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+}
+
+.menumobile{
+    display: block;
+    z-index: 100;
+}
+
+body{
+    background: none;
+}
+.filmes{
+    width: 100%;
+    margin: 175px;
+}
 
 
+
+.card{
+    width: 500px;
+}
+.menu-hamburguer i{
+    color: #fffafa;
+    display: flex;    
+    
+}
+nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+nav ul.open{
+    left: 0;
+    margin-top: -14px;
+}
+nav ul li{
+    width: 100%;
+    margin: 50px 0;
+}
+nav ul li a {
+    font-size: 23px;
+}
+nav ul li a.pagmenu,
+nav ul li a:hover{
+    background: none;
+    
+}   
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mapa{
+        width: 90%;
+        margin: 65px;
+    }    
+    
+   table{
+    width: 370px;
+    margin: 100px;
+   
+   }
+
+    
+.contfilms{
+    margin: 120px;
+
+}
+
+iframe{
+    width: 480px;
+    height: 480px;
+}
+
+
+
+.obs{
+    margin-left: 0px;
+}
+
+.dados{
+    font-size: 17px;
+}
+
+.loc{
+    margin: 150px;
+}
+
+.contsob{
+    margin: 90px;
+}
+
+.cont{
+    margin: 150px;
+}
+
+}
+
+@media (max-width: 594px){
+   
+    .sinopse{
+        font-size: 20px;
+    }
+    .contfilms{
+        margin: 121px;
+    
+    }
+   
+    .loc{
+        margin: 140px;
+    }
+
+    .form .f{
+        display: block;
+    }
+
+    .form .f .input:first-child{
+        margin-bottom: 20px;
+    }
+
+    .cont{
+        margin: 80px;
+    }
+    
+}
+
+@media (max-width: 480px){
+    .contfilms{
+        margin: 120px;
+    
+    }
+   
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .loc{
+        margin: 130px;
+    }
+   
+    .cont{
+        margin: 90px;
+    }
+
+    .form{
+        padding: 11px;
+    }
+} 
+
+@media (max-width: 375px){
+    .filmes{
+        width: 100%;
+        margin: 200ppx;
+    }
+    .card{
+        width: 200px;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .contfilms{
+        margin: 121px;
+    
+    }
+
+
+    .titsb{
+        width: 200px;
+    }
+
+    .containercentral{
+        width: 300px;
+    }
+
+    .loc{
+        margin: 140px;
+    }
+
+    .tabela{
+        width: 220px;
+        margin: 35px;
+    }
+
+    
+
+    .form .f{
+        display: block;
+    }
+
+    .form .f .input:first-child{
+        margin-bottom: 20px;
+    
+    }
+   
+   
+}
